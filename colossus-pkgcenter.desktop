@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=COLOSSUS System Installer
+GenericName=Package Manager
+Comment=Graphical Arch + AUR package manager using yay
+Exec=colossus-pkgcenter
+Icon=colossus-pkgcenter
+Terminal=false
+Categories=System;Settings;PackageManager;
+Keywords=Arch;AUR;Yay;Packages;Software;Colossus;
+StartupNotify=true
