@@ -1,11 +1,4 @@
-
----
-
-## 3️⃣ `install.sh`
-
-Create `install.sh` in the repo root:
-
-```bash
+cat > install.sh << 'EOF'
 #!/usr/bin/env bash
 #
 # install.sh — installer for COLOSSUS System Installer
@@ -127,3 +120,4 @@ echo "    Desktop: $DESKTOP_DIR/$DESKTOP_FILE"
 echo
 echo "You should now see \"$APP_NAME\" in your application menu."
 echo "Have fun, and try not to install Wine by accident again. 😉"
+EOF
